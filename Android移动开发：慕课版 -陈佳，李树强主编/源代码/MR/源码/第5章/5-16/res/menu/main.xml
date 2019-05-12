@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.mingrisoft.MainActivity" >
+
+    <item
+        android:id="@+id/item1"
+        android:alphabeticShortcut="g"
+        android:title="发起群聊"
+        android:showAsAction="never">
+    </item>
+    <item
+        android:id="@+id/item2"
+        android:alphabeticShortcut="e"
+        android:title="添加朋友">
+    </item>
+    <item
+        android:id="@+id/item3"
+        android:alphabeticShortcut="r"
+        android:title="扫一扫">
+    </item>
+    <item
+        android:id="@+id/item4"
+        android:alphabeticShortcut="r"
+        android:title="帮助与反馈">
+    </item>
+</menu>

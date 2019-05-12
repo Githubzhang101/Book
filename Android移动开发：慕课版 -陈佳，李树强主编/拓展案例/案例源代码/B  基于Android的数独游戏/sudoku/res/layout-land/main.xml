@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@color/background"
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:padding="15dip"	
+	>
+	<LinearLayout
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:paddingLeft="20dip"
+	    android:paddingRight="20dip"
+	    	    >
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/hello"
+	    android:layout_marginBottom="20dip"
+	    android:textSize="24.5sp"
+	    />
+	<TableLayout 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:gravity="center"
+	    android:stretchColumns="*"
+		>
+		<TableRow>
+			<Button android:id="@+id/button1"
+				android:text="@string/btn1" 
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"/>
+			<Button android:id="@+id/button2"
+				android:text="新游戏" 
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"/> 
+			<Button android:id="@+id/button3"
+				android:text="关于" 
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"/>
+			<Button android:id="@+id/button4"
+				android:text="退出" 
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content"/> 	 	   
+		</TableRow>
+	</TableLayout>
+	</LinearLayout>
+</LinearLayout>

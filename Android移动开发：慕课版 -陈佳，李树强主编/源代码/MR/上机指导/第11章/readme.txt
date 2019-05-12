@@ -1,0 +1,3 @@
+在运行本实例时，请先将“第11章需要部署到Tomcat下的Java Web项目”目录下的3个Web实例，部署到Tomcat的webapps文件夹中，并启动Tomcat服务器。
+
+注：Tomcat需要使用8080端口，如果没有使用该端口，请修改Android项目中的各个URL地址中的端口号为您配置的Tomcat端口号。另外，IP地址也需要修改为您机器中配置的IP地址。

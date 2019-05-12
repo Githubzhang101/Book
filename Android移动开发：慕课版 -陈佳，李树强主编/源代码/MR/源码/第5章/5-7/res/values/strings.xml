@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">显示多种样式的文本</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="email">联系邮箱：mingrisoft@mingrisoft.com</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

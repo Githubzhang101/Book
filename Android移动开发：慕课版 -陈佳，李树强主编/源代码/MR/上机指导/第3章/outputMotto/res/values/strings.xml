@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">我喜欢的励志文字</string>
+    <string name="hello_world">我一直认为我是一只蜗牛。我一直在爬，也许还没有爬到金字塔的顶端。但是只要你在爬，就足以给自己留下令生命感动的日子。</string>
+    <string name="action_settings">Settings</string>
+
+</resources>
